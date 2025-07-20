@@ -1,0 +1,9 @@
+flask
+flask-cors
+pdf2image
+Pillow
+img2pdf
+opencv-python
+rembg 
+PyPDF2
+gunicorn 
