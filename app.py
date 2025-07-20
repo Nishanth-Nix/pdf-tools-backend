@@ -9,7 +9,7 @@ from flask_cors import CORS
 from PyPDF2 import PdfMerger
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, resources={r"/*": {"origins": "https://pdf-frontend.netlify.app"}})
 
 @app.route('/')
 def home():
